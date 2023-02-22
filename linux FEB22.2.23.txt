@@ -1,0 +1,68 @@
+    2  mkdir folder1
+    3  ls
+    4  mkdir f2 f3 f4
+    5  ls
+    6  mkdir f5,f6,f7
+    7  ls
+    8  clear
+    9  ls
+   10  cd folder1
+   11  mkdir a1
+   12  ls
+   13  cd a1
+   14  mkdir a2
+   15  cd a2
+   16  mkdir a3
+   17  cd a3
+   18  clear
+   19  cd ..
+   20  cd ../../
+   21  cd a1/a2/a3/
+   22  clear
+   23  cd
+   24  cd folder1
+   25  cd a1/a2/a2/
+   26  cd a1/a2/a3/
+   27  clear
+   28  cd -
+   29  clear
+   30  cd /home
+   31  ls
+   32  cd ubuntu
+   33  clear
+   34  ls
+   35  clear
+   36  history
+   51  rmdir f2
+   52  ls
+   53  rmdir folder1
+   54  rm -r folder1
+   55  ls
+   56  rm -r f4 f5,f6,f7
+   57  ls
+   58  clear
+   59  history
+   60  clear
+   61  ls
+   62  rm -r *
+  67  mkdir folder1 folder2 folder3 folder4
+   68  clear
+   69  ls
+   70  cp -r folder1 folder3
+   71  ls
+   72  cd folder3
+   73  ls
+   75  clear
+   76  cd
+   77  clear
+   78  ls
+   79  cp folder2 folder4
+   80  ls
+   81  mv folder2 folder4
+   82  ls
+   83  cd folder4
+   84  ls
+   85  mv folder2 directory2
+   86  ls
+   87  clear
+
